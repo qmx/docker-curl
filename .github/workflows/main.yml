@@ -22,4 +22,4 @@ jobs:
         run: make buildx-prepare
 
       - name: build
-        run: make buildx-push-tag
+        run: make buildx-push buildx-push-tag
